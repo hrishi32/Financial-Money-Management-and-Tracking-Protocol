@@ -1,0 +1,86 @@
+#body_container_of_selected_item{
+    position: relative;
+    margin: 0px;
+    width: 95 %;
+   /*border : solid black 1px;*/
+    
+}
+
+#list {
+    position: ;
+    
+    
+}
+
+#selected_image_show{
+    position: absolute;
+    text-align: center;
+    background-color:white;
+    width: 35%;
+    height: 120%;
+    border : solid #ccc 0.7px;
+}
+
+#selected_image_show:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+
+}
+
+
+#selected_image_show img{
+     margin-left: auto;
+	   margin-right: auto;
+	   display: block;
+     height: 70%;
+     vertical-align: middle;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    
+
+}
+#list ul{
+     list-style-type: none;
+     padding-left: 15px;
+     padding 0px;
+     margin: 0px;
+}
+
+#list ul li{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding: 0px;
+    border: solid #ccc .7px;
+    cursor: pointer;
+}
+#list img{
+    width: 80px;
+    height: 80px;
+}/*
+/**/
+#right_info_containing_div{
+    width: 45%; 
+    background-color: white;
+    position: absolute;
+    left:30% ;
+    padding-left: 5%;
+    border: solid #cccccc 0.7px;
+}
+
+#right_info_containing_div:hover{
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+    
+#owner_info span{
+   font-size: 17px;   
+}
+
+#owner_info p{
+}
+
+
+ 
